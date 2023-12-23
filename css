@@ -1,0 +1,64 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0;
+    background: transparent url(/img/bg-pattern.jpg) repeat center center;
+}
+header img{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+.header_links{
+    width: 150px;
+    background-color: rgba(189, 4, 41, 0.856);
+    border-radius: 20px 0;
+    padding: 10px;
+    margin:0 10px;
+    position: absolute;
+    top: 0;
+}
+.header_links a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border-left: 2px solid rgba(114, 0, 0, 0.76);
+    border-right: 2px solid rgba(114, 0, 0, 0.76);
+}
+.header_links a:hover{
+    background-color: rgba(114, 0, 0, 0.619);
+    transform: translateX(4px);
+}
+.heading{
+    position: absolute;
+    top: 10px;
+    left: 40%;
+    background-color: rgba(192, 2, 40, 0.468);
+    border-radius: 10%;
+    color: white;
+}
+aside h2{
+    background-color: rgba(250, 218, 131, 0.194);
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    color: rgb(48, 46, 48);
+}
+.Les_plats{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);
+}
+.Les_plats a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 50px;
+}
+.Les_plats img{
+    width: 400px;
+    height: 200px;
+}
